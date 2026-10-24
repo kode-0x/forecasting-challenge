@@ -1,0 +1,10 @@
+*.egg-info/
+.venv/
+.pytest_cache/
+__pycache__/
+challenge_data/*.csv
+challenge_data/*.csv.gz
+challenge_data/*.tar.gz
+outputs/*.csv
+outputs/*.json
+!outputs/.gitkeep

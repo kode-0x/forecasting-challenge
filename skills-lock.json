@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "Time Series Analysis": {
+      "source": "aj-geddes/useful-ai-prompts",
+      "sourceType": "github",
+      "skillPath": "skills/time-series-analysis/SKILL.md",
+      "computedHash": "3b54f962680f7143d8424975786cb1e4ae6d68dc93486b7b392941962fef9b1a"
+    },
+    "time-series-analysis": {
+      "source": "nimrodfisher/data-analytics-skills",
+      "sourceType": "github",
+      "skillPath": "03-data-analysis-investigation/time-series-analysis/SKILL.md",
+      "computedHash": "55f42aabf823471746f6a1ff574861747a10dbbe8e7b79eac1a5c26f52ff471e"
+    }
+  }
+}

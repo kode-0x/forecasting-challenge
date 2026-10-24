@@ -1,0 +1,18 @@
+data:
+  readings: challenge_data/vm_cpu_readings.csv.gz
+  metadata: challenge_data/vm_metadata.csv.gz
+
+cadence_seconds: 300
+train_size: 110
+horizon: 24
+validation_origins: [62, 74, 86]
+moving_average_window: 12
+trend_window: 12
+trend_damping: 0.85
+peak_quantile: 0.9
+
+outputs:
+  directory: outputs
+  figures: reports/figures
+  report: reports/final_report.md
+  root_predictions: predictions.csv
